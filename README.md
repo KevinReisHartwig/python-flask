@@ -6,7 +6,7 @@ Azul = comandos do powerShell
 Amarelo = comandos do terminal VS CODE
 Verde = linha de código 
 
-Etapa 1 – fazer o download do python, depois abrir a variáveis de ambiente ir em path pegar o iniciar em em propriedades do python clicar em editar o path e depois em novo e colar o “iniciar em” e depois mais um novo com o mesmo “iniciar em” copiado mas com” /Scripts” no final e depois abrir o power shell como administrador digitar “ Set-ExecutionPolicy Unrestricted ” depois enter e depois S enter, abrir o VS code e depois o terminal dele para criar o ambiente virtual usando o comando “ python -m venv venv ” e depois o “.\venv\Scripts\Activate” para ativar o servidor e depois instalar o flash usando “pip install flask”.
+Etapa 1 – fazer o download do python, depois abrir a variáveis de ambiente ir em path pegar o iniciar em propriedades do python clicar em editar o path e depois em novo e colar o “iniciar em”, depois mais um novo com o mesmo “iniciar em” copiado, mas com” /Scripts” no final e depois abrir o power shell como administrador digitar “ Set-ExecutionPolicy Unrestricted ” depois enter, e depois S enter, abrir o VS code, depois o terminal dele para criar o ambiente virtual usando o comando “ python -m venv venv ” e depois o “.\venv\Scripts\Activate” para ativar o servidor e depois instalar o flash usando “pip install flask”.
 Etapa 2 – Iniciar o ambiente virtual usando o “ .\venv\Scripts\Activate ” se ainda não estiver, criar uma pasta chamada app e dentro dela um arquivo chamado “__init__.py” dentro desse arquivo escrever:
 
 from flask import Flask
